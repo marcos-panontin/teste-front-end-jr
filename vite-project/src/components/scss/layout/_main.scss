@@ -104,6 +104,13 @@
     align-items: center;
     gap: 62px;
     margin-top: 17px;
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out; /* Adding a smooth transition */
+    width: 100%; /* Ensure the carousel takes the full width */
+
+    .carousel-animation {
+        transform: translateX(0); /* Initial position for the carousel */
+    }
 
     &--product-card {
       width: 266px;
