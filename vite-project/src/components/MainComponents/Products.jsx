@@ -1,6 +1,9 @@
 import { useState, useEffect } from 'react';
 import { fetchProducts } from '../../services/api';
 import ProductCard from './ProductCard';
+import PrevIcon from '../SVGIcons/PrevIcon';
+import NextIcon from '../SVGIcons/NextIcon';
+
 
 export default function Products() {
   const [products, setProducts] = useState([]);
@@ -31,12 +34,16 @@ export default function Products() {
   }
 
   return (
-    <section className='main__products carousel-animation' style={{ transform: `translateX(270px)` }}>
-      <button onClick={handlePrevClick}>PREV</button>
+    <section className='main__products carousel-animation'>
+      <button className='carousel-button' onClick={handlePrevClick}>
+        <PrevIcon />
+      </button>
       {visibleProducts.map((product, index) => (
         <ProductCard key={`${product}${index}`} product={product} />
       ))}
-      <button onClick={handleNextClick}>NEXT</button>
+      <button className='carousel-button' onClick={handleNextClick}>
+        <NextIcon />
+      </button>
     </section>
   );
 }

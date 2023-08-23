@@ -104,12 +104,24 @@
     align-items: center;
     gap: 62px;
     margin-top: 17px;
-    overflow: hidden;
-    transition: transform 0.5s ease-in-out; /* Adding a smooth transition */
-    width: 100%; /* Ensure the carousel takes the full width */
 
-    .carousel-animation {
-        transform: translateX(0); /* Initial position for the carousel */
+    .carousel-button{
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+
+      svg path {
+        transition: stroke 0.2s ease;
+        stroke: #9F9F9F;
+      }
+
+      svg:hover path {
+        stroke: var(--color-pink); 
+      }
+
+      svg:hover path {
+        fill: var(--color-pink);
+      }
     }
 
     &--product-card {

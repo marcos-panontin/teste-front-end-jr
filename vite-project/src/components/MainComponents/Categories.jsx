@@ -10,11 +10,11 @@ import Fashion from '../../assets/icons/Fashion.svg';
 const categories = [
   {
     category: 'Tecnologia',
-    imageURL: Tech
+    imageURL: Tech,
   },
   {
     category: 'Supermercado',
-    imageURL: Supermarket
+    imageURL: Supermarket,
   },
   {
     category: 'Bebidas',
@@ -42,7 +42,7 @@ export default function Categories() {
   return (
     <section className='main__categories'>
       {categories.map((category, index) => (
-        <CategoryCard key={index} category={category} />
+        <CategoryCard key={index} category={category} SVGComponent={category.SVGComponent} />
       ))
         }
     </section>

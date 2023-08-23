@@ -293,6 +293,21 @@ a, a:visited, a:active {
   gap: 62px;
   margin-top: 17px;
 }
+.main__products .carousel-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.main__products .carousel-button svg path {
+  transition: stroke 0.2s ease;
+  stroke: #9F9F9F;
+}
+.main__products .carousel-button svg:hover path {
+  stroke: var(--color-pink);
+}
+.main__products .carousel-button svg:hover path {
+  fill: var(--color-pink);
+}
 .main__products--product-card {
   width: 266px;
   flex-shrink: 0;
