@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.pink_text {
+  color: var(--color-pink);
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+:root {
+  --color-pink: #F71963;
+  --color-darkzinc: #2A2A2A;
+  --color-gray: #9F9F9F;
+  --color-lightgray: #F6F5F2;
+  --color-ultralightgray: #F0F0F0;
+  --color-white: #FFFFFF;
+}
+
+.pink-text {
+  color: var(--color-pink);
+}/*# sourceMappingURL=style.css.map */

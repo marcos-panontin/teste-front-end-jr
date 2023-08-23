@@ -1,0 +1,8 @@
+@forward 'header';
+@forward 'hero';
+@forward 'main';
+@forward 'footer';
+
+.pink-text {
+  color: var(--color-pink);
+}
