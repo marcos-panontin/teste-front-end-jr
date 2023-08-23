@@ -16,8 +16,8 @@ export default function Products() {
   const [products, setProducts] = useState([])
   
   return (
-    <section>
-      {products.map((product, index) => (
+    <section className='main__products'>
+      {products.filter((product, index) => index < 4).map((product, index) => (
         <ProductCard key={`${product}${index}`} product={product} />
       ))}
     </section>

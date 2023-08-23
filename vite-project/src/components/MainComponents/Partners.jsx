@@ -3,7 +3,7 @@ import PartnerCard from './PartnerCard';
 
 export default function Partners() {
   return (
-    <section>
+    <section className='main__partners'>
       <PartnerCard/>
       <PartnerCard/>
     </section>

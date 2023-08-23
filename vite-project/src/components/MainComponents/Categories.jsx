@@ -1,40 +1,46 @@
-import React from 'react';
 import CategoryCard from './CategoryCard';
+import Tech from '../../assets/icons/Tech.svg';
+import Supermarket from '../../assets/icons/Supermarket.svg';
+import Drinks from '../../assets/icons/Drinks.svg';
+import Tools from '../../assets/icons/Tools.svg';
+import Health from '../../assets/icons/Health.svg';
+import Sport from '../../assets/icons/Sport.svg';
+import Fashion from '../../assets/icons/Fashion.svg';
 
 const categories = [
   {
     category: 'Tecnologia',
-    image: 'https://via.placeholder.com/200x200?text=Tecnologia'
+    imageURL: Tech
   },
   {
     category: 'Supermercado',
-    image: 'https://via.placeholder.com/200x200?text=Casa+e+cozinha'
+    imageURL: Supermarket
   },
   {
     category: 'Bebidas',
-    image: 'https://via.placeholder.com/200x200?text=Livros'
+    imageURL: Drinks
   },
   {
     category: 'Ferramentas',
-    image: 'https://via.placeholder.com/200x200?text=Moda'
+    imageURL: Tools
   },
   {
     category: 'Saúde',
-    image: 'https://via.placeholder.com/200x200?text=Games'
+    imageURL: Health
   },
   {
     category: 'Esportes e Fitness',
-    image: 'https://via.placeholder.com/200x200?text=Esportes'
+    imageURL: Sport
   },
   {
     category: 'Moda',
-    image: 'https://via.placeholder.com/200x200?text=Música'
+    imageURL: Fashion
   }
 ];
 
 export default function Categories() {
   return (
-    <section>
+    <section className='main__categories'>
       {categories.map((category, index) => (
         <CategoryCard key={index} category={category} />
       ))

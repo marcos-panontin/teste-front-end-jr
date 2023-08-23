@@ -1,7 +1,9 @@
-import React from 'react'
+import logo from '../../assets/icons/Logo.svg'
 
 export default function BrandCard() {
   return (
-    <div>VTEX</div>
+    <section className='main__brands--logocontainer'>
+      <img className='main__brands--logo' src={logo}></img>
+    </section>
   )
 }

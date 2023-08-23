@@ -18,3 +18,8 @@ body {
 .pink_text {
   color: var(--color-pink);
 }
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: inherit;
+}
