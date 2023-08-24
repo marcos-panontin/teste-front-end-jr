@@ -6,6 +6,7 @@ import Tools from '../../assets/icons/Tools.svg';
 import Health from '../../assets/icons/Health.svg';
 import Sport from '../../assets/icons/Sport.svg';
 import Fashion from '../../assets/icons/Fashion.svg';
+import SupermarketIcon from '../SVGIcons/SupermarketIcon';
 
 const categories = [
   {
@@ -42,9 +43,9 @@ export default function Categories() {
   return (
     <section className='main__categories'>
       {categories.map((category, index) => (
-        <CategoryCard key={index} category={category} SVGComponent={category.SVGComponent} />
+        <CategoryCard key={index} category={category}/>
       ))
-        }
+      }
     </section>
   )
 }

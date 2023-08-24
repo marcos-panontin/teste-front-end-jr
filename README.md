@@ -7,28 +7,48 @@ if (vagaEconverse === true ) {
 
 Seguem instruções para execução local do projeto realizado.
 
+## Deploy do Projeto
+
+[Clique aqui](https://teste-front-end-jr-ako8.vercel.app/)
+
+## Requisitos para instalação
+- Node JS
+- NPM
+
 ## Instruções
-- Faça um clone desse projeto com `git clone git@github.com:marcos-panontin/teste-front-end-jr.git`.
-- Entre na pasta **Especificações Técnicas** 
-- Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
+- Faça um clone desse projeto com `git clone git@github.com:marcos-panontin/teste-front-end-jr.git`;
+- Entre na pasta **teste-front-end-jr** com `cd teste-front-end-jr`;
+- Instale as dependências do projeto com `npm i`;
+- Execute o projeto com `npm run dev`;
 
-## Especificações Técnicas
-- Desenvolver a pagina em React conforme o [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1). Para conseguir pegar os elementos do Figma, basta copiar o layout para sua conta que terá acesso de edição.
-- Montar a [vitrine](https://app.econverse.com.br/teste-front-end/junior/tecnologia/layout/vitrine-produtos.png) de produtos consumindo as informações dos produtos em json atraves desse [Link](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json).
-- Desenvolver a interação ao clicar em um produto conforme layout. A interação consiste em abrir um modal com as principais informações do produto presente no arquivo [JSON](https://app.econverse.com.br/teste-front-end/junior/tecnologia/lista-produtos/produtos.json) conforme o produto que clicar.
-- Utilizar Pré-processador Sass, Less ou Stylus.
-- Respeitar o Layout pixel a pixel, tamanho das fontes, cores e botões.
-- Não Utilizar bibliotecas UI como Bootstrap, Foundation, ou afins.
+## Compilação do SASS/SCSS
+- Caso realize alguma alteração nos arquivos SASS/SCSS, será necessária uma nova compilação;
+- A dependência do SASS já foi instalada com as dependências do projeto;
+- Para compilar no ambiente de desenvolvimento, rode `npm run sass-dev`;
+- Para a criação de um arquivo minificado e compilar no ambiente de produção, rode `npm run sass-prod`.
 
-## Pontos Extras
-- Utilizar Boas práticas de SEO
-- Uso de HTML semântico
+## Tecnologias utilizadas
+- React (com React Hooks);
+- SASS
+- Fetch API
 
-## O que avaliaremos em seu teste
-- Organização do projeto
-- Lógica do código
-- Componentização
-- Alcance dos objetivos propostos
+## Funcionalidades criadas
+- Desenvolvimento conforme [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1) proposto em Figma;
+- Consumo de API para elaboração da vitrine / carrossel de produtos;
+- Desenvolvimento de modal para implementação de carrinho.
 
-**Boa sorte! ;)**
+## Melhorias previstas
+- Animação para a transição dos elementos da vitrine de produtos;
+- Desenvolvimento de página de carrinho de compras, permitindo agregação dos dados de diversas mercadorias;
+
+## O que mais Marcos Panontin desenvolveu?
+- [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
+- [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;
+- [Genius](https://marcos-panontin.github.io/genius-game/): Jogo desenvolvido com JavaScript e CSS puros, no início de minha jornada com Programação;
+- Muitos outros projetos que terei o prazer em compartilhar.
+
+## Contatos
+- [Linkedin](https://www.linkedin.com/in/marcos-panontin/);
+- Email: amarcospanontin@gmail.com
+
+**Bom dia / Boa tarde / Boa noite! ;)**

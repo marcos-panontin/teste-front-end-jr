@@ -16,12 +16,11 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  translate: -50% -50%;
+  transform: translate(-50%, -50%);
   z-index: 10;
   border: none;
   display: flex;
   width: 769px;
-  // height: 299.257px;
   flex-shrink: 0;
   font-family: util.$fontLato;
 
