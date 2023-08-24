@@ -30,7 +30,6 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 ## Tecnologias utilizadas
 - [React](https://react.dev/) (com React Hooks);
 - [SASS](https://sass-lang.com/)
-- [Swiper](https://swiperjs.com/)
 
 ## Funcionalidades criadas
 - Desenvolvimento conforme [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1) proposto em Figma;
