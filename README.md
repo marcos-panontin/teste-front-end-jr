@@ -18,16 +18,34 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - NPM
 
 ## Instruções
-- Faça um clone desse projeto com `git clone git@github.com:marcos-panontin/teste-front-end-jr.git`;
-- Entre na pasta **teste-front-end-jr** com `cd teste-front-end-jr`;
-- Instale as dependências do projeto com `npm i`;
-- Execute o projeto com `npm run dev`;
+- Faça um clone desse projeto com 
+```
+git clone git@github.com:marcos-panontin/teste-front-end-jr.git
+```
+- Entre na pasta **teste-front-end-jr** com 
+```
+cd teste-front-end-jr
+```
+- Instale as dependências do projeto com 
+```
+npm i
+```
+- Execute o projeto com 
+```
+npm run dev
+```
 
 ## Compilação do SASS/SCSS
 - Caso realize alguma alteração nos arquivos SASS/SCSS, será necessária uma nova compilação;
 - A dependência do SASS já foi instalada com as dependências do projeto;
-- Para compilar no ambiente de desenvolvimento, rode `npm run sass-dev`;
-- Para a compilação de um arquivo minificado, rode `npm run sass-prod`.
+- Para compilar no ambiente de desenvolvimento, rode 
+```
+npm run sass-dev
+```
+- Para a compilação de um arquivo minificado, rode 
+```
+npm run sass-prod
+```
 
 ## Tecnologias utilizadas
 - <a href="https://react.dev/" target="_blank">React</a> (com React Hooks);
