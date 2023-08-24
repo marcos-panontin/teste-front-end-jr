@@ -28,9 +28,9 @@ Seguem instruções para execução local do projeto realizado.
 - Para a criação de um arquivo minificado e compilar no ambiente de produção, rode `npm run sass-prod`.
 
 ## Tecnologias utilizadas
-- React (com React Hooks);
-- SASS
-- Fetch API
+- [React](https://react.dev/) (com React Hooks);
+- [SASS](https://sass-lang.com/)
+- [Swiper](https://swiperjs.com/)
 
 ## Funcionalidades criadas
 - Desenvolvimento conforme [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1) proposto em Figma;
