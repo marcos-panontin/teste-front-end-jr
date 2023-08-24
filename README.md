@@ -1,15 +1,17 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End Jr
 # Marcos Panontin
 
-if (vagaEconverse === true ) {
+```
+if (EconversePosition === true ) {
   marcosPanontin.celebrate();
 }
+```
 
-Seguem instruções para execução local da landing page de E-commerce da `VTEX``.
+Seguem instruções para execução local da landing page de E-commerce da `VTEX`.
 
 ## Deploy do Projeto
 
-[Clique aqui](https://teste-front-end-jr-ako8.vercel.app/)
+<a href="https://teste-front-end-jr-ako8.vercel.app/" target="_blank">Clique aqui</a> para abrir o projeto.
 
 ## Requisitos para instalação
 - Node JS
@@ -25,14 +27,14 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - Caso realize alguma alteração nos arquivos SASS/SCSS, será necessária uma nova compilação;
 - A dependência do SASS já foi instalada com as dependências do projeto;
 - Para compilar no ambiente de desenvolvimento, rode `npm run sass-dev`;
-- Para a criação de um arquivo minificado e compilar no ambiente de produção, rode `npm run sass-prod`.
+- Para a compilação de um arquivo minificado, rode `npm run sass-prod`.
 
 ## Tecnologias utilizadas
-- [React](https://react.dev/) (com React Hooks);
-- [SASS](https://sass-lang.com/)
+- <a href="https://react.dev/" target="_blank">React</a> (com React Hooks);
+- <a href="https://sass-lang.com/" target="_blank">SASS</a>
 
 ## Funcionalidades criadas
-- Desenvolvimento conforme [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1) proposto em Figma;
+- Desenvolvimento conforme <a href="https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1" target="_blank">layout</a> proposto em Figma;
 - Consumo de API para elaboração da vitrine / carrossel de produtos;
 - Desenvolvimento contínuo do modal para implementação de carrinho.
 
@@ -40,12 +42,12 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - Alteração de cor dos ícones de Categorias ao "hover" do mouse.
 
 ## O que mais Marcos Panontin desenvolveu?
-- [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
-- [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;
-- [Genius](https://marcos-panontin.github.io/genius-game/): Jogo desenvolvido com JavaScript e CSS puros, no início de minha jornada com Programação;
+- <a href="https://marcos-panontin.github.io/racha-cuca-game/" target="_blank">Racha-Cuca</a>: Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
+- <a href="https://travelwallet.vercel.app/" target="_blank">TravelWallet</a>: Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Cotação de Moedas em Tempo Real e DarkMode;
+- <a href="https://marcos-panontin.github.io/genius-game/" target="_blank">Genius</a>: Jogo desenvolvido com JavaScript e CSS puros, no início de minha jornada com Programação;
 
 ## Contatos
-- [Linkedin](https://www.linkedin.com/in/marcos-panontin/);
-- Email: amarcospanontin@gmail.com
+- <a href="https://www.linkedin.com/in/marcos-panontin/" target="_blank">Linkedin</a>;
+- Email: <a href="mailto:amarcospanontin@gmail.com">amarcospanontin@gmail.com</a>
 
 **Bom dia / Boa tarde / Boa noite! ;)**
