@@ -37,10 +37,6 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - Consumo de API para elaboração da vitrine / carrossel de produtos;
 - Desenvolvimento contínuo do modal para implementação de carrinho.
 
-## Melhorias previstas
-- Animação para a transição dos elementos da vitrine de produtos. Uma possibilidade seria uma biblioteca, como a [React-Multi-Carousel](https://www.npmjs.com/package/react-multi-carousel);
-- Desenvolvimento de página de carrinho de compras, permitindo agregação dos dados de diversas mercadorias;
-
 ## O que mais Marcos Panontin desenvolveu?
 - [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
 - [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;

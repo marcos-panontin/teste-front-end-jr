@@ -7,7 +7,7 @@ import NextIcon from '../SVGIcons/NextIcon';
 
 export default function Products() {
   const [products, setProducts] = useState([]);
-  const [indexLimit, setIndexLimit] = useState(0);
+  const [index, setIndex] = useState(0);
 
   useEffect(() => {
     async function fetchData() {
@@ -18,32 +18,44 @@ export default function Products() {
   }, []);
 
   const productCount = products.length;
-  const itemsToShow = 4;
+  const visibleProducts = 4;
 
   const handlePrevClick = () => {
-    setIndexLimit((indexLimit - 1 + productCount) % productCount);
+    if (index === 0) {
+      setIndex(productCount - (visibleProducts + 1));
+      return;
+    }
+    setIndex(index - 1);
   };
 
   const handleNextClick = () => {
-    setIndexLimit((indexLimit + 1) % productCount);
+    if (index === productCount - (visibleProducts + 1)) {
+      setIndex(0);
+      return;
+    }
+    setIndex(index + 1);
+    console.log(index);
   };
 
-  const visibleProducts = products.slice(indexLimit, indexLimit + itemsToShow);
-  if (visibleProducts.length < itemsToShow) {
-    visibleProducts.push(...products.slice(0, itemsToShow - visibleProducts.length));
-  }
-
   return (
-    <section className='main__products carousel-animation'>
-      <button className='carousel-button' onClick={handlePrevClick}>
-        <PrevIcon />
-      </button>
-      {visibleProducts.map((product, index) => (
-        <ProductCard key={`${product}${index}`} product={product} />
-      ))}
-      <button className='carousel-button' onClick={handleNextClick}>
-        <NextIcon />
-      </button>
-    </section>
+    <section className="main__wrapper">
+      <section className='main__products'>
+        <section className='container' style={{
+          left: `-${335 * index}px`}}>
+
+        {products.map((product, index) => (
+          <ProductCard key={`${product}${index}`} product={product} />
+          ))}
+          </section>
+      </section>
+      <section className='carousel-buttons-container'>
+            <button className='carousel-button prev' onClick={handlePrevClick}>
+              <PrevIcon />
+            </button>
+        <button className='carousel-button next' onClick={handleNextClick}>
+          <NextIcon />
+        </button>
+      </section>
+        </section>
   );
 }

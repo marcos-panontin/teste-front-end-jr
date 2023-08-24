@@ -7,13 +7,13 @@ export default function ProductCard({ product }) {
 
    useEffect(() => {
     if (openModal) {
-      document.body.style.overflow = 'hidden'; // Prevent scrolling
+      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = 'auto'; // Enable scrolling
+      document.body.style.overflow = 'auto';
     }
 
     return () => {
-      document.body.style.overflow = 'auto'; // Restore scrolling when component unmounts
+      document.body.style.overflow = 'auto';
     };
   }, [openModal]);
   

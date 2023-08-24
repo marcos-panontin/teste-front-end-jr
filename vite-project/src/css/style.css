@@ -203,6 +203,7 @@ a, a:visited, a:active {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 .main__categories {
   display: flex;
@@ -286,27 +287,50 @@ a, a:visited, a:active {
   color: var(--color-pink);
   font-weight: 600;
 }
-.main__products {
+.main__wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 62px;
-  margin-top: 17px;
+  width: 1280px;
 }
-.main__products .carousel-button {
+.main__wrapper .carousel-buttons-container {
+  position: relative;
+}
+.main__wrapper .carousel-button {
   background-color: transparent;
   border: none;
   cursor: pointer;
+  position: absolute;
+  transform: translateY(-50%);
 }
-.main__products .carousel-button svg path {
+.main__wrapper .carousel-button svg path {
   transition: stroke 0.2s ease;
   stroke: #9F9F9F;
 }
-.main__products .carousel-button svg:hover path {
+.main__wrapper .carousel-button svg:hover path {
   stroke: var(--color-pink);
 }
-.main__products .carousel-button svg:hover path {
+.main__wrapper .carousel-button svg:hover path {
   fill: var(--color-pink);
+}
+.main__wrapper .prev {
+  left: -1342px;
+}
+.main__wrapper .next {
+  right: -42px;
+}
+.main__products {
+  overflow-x: hidden;
+  width: 1300px;
+  margin-top: 17px;
+}
+.main__products .container {
+  display: flex;
+  flex-direction: row;
+  gap: 62px;
+  position: relative;
+  width: 2660px;
+  transition: 0.4s ease-in;
 }
 .main__products--product-card {
   width: 266px;
@@ -453,7 +477,7 @@ a, a:visited, a:active {
   font-weight: 700;
   line-height: normal;
   background-color: var(--color-white);
-  padding: 0 34px;
+  padding: 0;
   margin-bottom: 0;
 }
 .main__related--paragraph {
