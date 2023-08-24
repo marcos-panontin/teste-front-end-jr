@@ -1,12 +1,15 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End Jr
+# Marcos Panontin
 
-### Vem ser #Econverse!
+if (vagaEconverse === true ) {
+  marcosPanontin.celebrate();
+}
 
-Segue abaixo as instruções para a execução do teste.
+Seguem instruções para execução local do projeto realizado.
 
 ## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
-- Desenvolva a página conforme as **Especificações Técnicas** 
+- Faça um clone desse projeto com `git clone git@github.com:marcos-panontin/teste-front-end-jr.git`.
+- Entre na pasta **Especificações Técnicas** 
 - Crie um README com as instruções para compilar, testar e rodar o projeto.
 - O link do repositório deverá ser enviado para o e-mail ana.nascimento@econverse.com.br e eduardo.rodrigues@econverse.com.br com o título **Teste Vaga FrontEnd Jr**
 
