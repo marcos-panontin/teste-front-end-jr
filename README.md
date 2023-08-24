@@ -41,7 +41,7 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 
 ## O que mais Marcos Panontin desenvolveu?
 - [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
-- [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;
+- [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Cotação de Moedas em Tempo Real e DarkMode;
 - [Genius](https://marcos-panontin.github.io/genius-game/): Jogo desenvolvido com JavaScript e CSS puros, no início de minha jornada com Programação;
 
 ## Contatos
