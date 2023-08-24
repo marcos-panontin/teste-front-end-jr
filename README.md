@@ -9,7 +9,7 @@ Seguem instruções para execução local do projeto realizado.
 
 ## Deploy do Projeto
 
-[Clique aqui](https://teste-front-end-jr-ako8.vercel.app/){:target="_blank"}
+[Clique aqui](https://teste-front-end-jr-ako8.vercel.app/)
 
 ## Requisitos para instalação
 - Node JS
