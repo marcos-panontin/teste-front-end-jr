@@ -1,13 +1,7 @@
 # Teste Econverse: Vaga Desenvolvedor Front-End Jr
 # Marcos Panontin
 
-```
-if (EconversePosition === true ) {
-  marcosPanontin.celebrate();
-}
-```
-
-Seguem instruções para execução local da landing page de E-commerce da `VTEX`.
+Esta aplicação é uma landing page de E-commerce da `VTEX`. Abaixo seguem instruções para execução local.
 
 ## Deploy do Projeto
 
@@ -67,5 +61,11 @@ npm run sass-prod
 ## Contatos
 - <a href="https://www.linkedin.com/in/marcos-panontin/" target="_blank">Linkedin</a>;
 - Email: <a href="mailto:amarcospanontin@gmail.com">amarcospanontin@gmail.com</a>
+
+```
+if (EconversePosition === true ) {
+  marcosPanontin.celebrate();
+}
+```
 
 **Bom dia / Boa tarde / Boa noite! ;)**
