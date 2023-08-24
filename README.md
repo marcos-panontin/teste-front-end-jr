@@ -5,7 +5,7 @@ if (vagaEconverse === true ) {
   marcosPanontin.celebrate();
 }
 
-Seguem instruções para execução local do projeto realizado.
+Seguem instruções para execução local da landing page de E-commerce da `VTEX``.
 
 ## Deploy do Projeto
 
@@ -45,7 +45,6 @@ Seguem instruções para execução local do projeto realizado.
 - [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
 - [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;
 - [Genius](https://marcos-panontin.github.io/genius-game/): Jogo desenvolvido com JavaScript e CSS puros, no início de minha jornada com Programação;
-- Muitos outros projetos que terei o prazer em compartilhar.
 
 ## Contatos
 - [Linkedin](https://www.linkedin.com/in/marcos-panontin/);
