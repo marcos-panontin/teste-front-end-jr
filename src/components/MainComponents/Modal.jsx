@@ -10,7 +10,7 @@ export default function Modal({ product, handleClick }) {
       <section className='product-container'>
         <button className='close-modal-button' onClick={() => handleClick()}>X</button>
         <p className='product-name'>{product.productName}</p>
-        <p className='product-price'>R${product.price}</p>
+        <p className='product-price'>{product.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>
         <p className='product-description'>{product.descriptionShort}</p>
         <p className='product-details'>Veja mais detalhes do produto &gt;</p>
         <section className='incrementer-container'>

@@ -21,9 +21,9 @@ export default function ProductCard({ product }) {
     <section className='main__products--product-card'>
       <img src={product.photo} alt={product.productName} />
       <p className='product-name'>{product.productName}</p>
-      <p className='former-price'>R${ (product.price * 1.10).toFixed(2) }</p>
-      <p className='current-price'>R${product.price}</p>
-      <p className='installment-price'>ou 2x de {product.price / 2} sem juros</p>
+      <p className='former-price'>{ (product.price * 1.10).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' }) }</p>
+      <p className='current-price'>{product.price.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</p>
+      <p className='installment-price'>ou 2x de {(product.price / 2).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })} sem juros</p>
       <p className='shipping'>Frete grátis</p>
       <button onClick={() => setOpenModal(true)}>Comprar</button>
       
