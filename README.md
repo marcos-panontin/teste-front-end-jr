@@ -35,10 +35,10 @@ Seguem instruções para execução local do projeto realizado.
 ## Funcionalidades criadas
 - Desenvolvimento conforme [layout](https://www.figma.com/file/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=0%3A1) proposto em Figma;
 - Consumo de API para elaboração da vitrine / carrossel de produtos;
-- Desenvolvimento de modal para implementação de carrinho.
+- Desenvolvimento contínuo do modal para implementação de carrinho.
 
 ## Melhorias previstas
-- Animação para a transição dos elementos da vitrine de produtos;
+- Animação para a transição dos elementos da vitrine de produtos. Uma possibilidade seria uma biblioteca, como a [React-Multi-Carousel](https://www.npmjs.com/package/react-multi-carousel);
 - Desenvolvimento de página de carrinho de compras, permitindo agregação dos dados de diversas mercadorias;
 
 ## O que mais Marcos Panontin desenvolveu?
