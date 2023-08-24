@@ -18,19 +18,19 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - NPM
 
 ## Instruções
-- Faça um clone desse projeto com 
+- Faça um clone desse projeto
 ```
 git clone git@github.com:marcos-panontin/teste-front-end-jr.git
 ```
-- Entre na pasta **teste-front-end-jr** com 
+- Entre na pasta **teste-front-end-jr**
 ```
 cd teste-front-end-jr
 ```
-- Instale as dependências do projeto com 
+- Instale as dependências do projeto
 ```
 npm i
 ```
-- Execute o projeto com 
+- Execute o projeto
 ```
 npm run dev
 ```
