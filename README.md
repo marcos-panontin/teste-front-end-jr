@@ -36,6 +36,9 @@ Seguem instruções para execução local da landing page de E-commerce da `VTEX
 - Consumo de API para elaboração da vitrine / carrossel de produtos;
 - Desenvolvimento contínuo do modal para implementação de carrinho.
 
+## Potenciais de melhoria
+- Alteração de cor dos ícones de Categorias ao "hover" do mouse.
+
 ## O que mais Marcos Panontin desenvolveu?
 - [Racha-Cuca](https://marcos-panontin.github.io/racha-cuca-game/): Jogo desenvolvido com JavaScript e CSS puros, para treino de lógica e matar a saudade da infância;
 - [TravelWallet](https://travelwallet.vercel.app/): Carteira de Gastos Internacionais, realizada com React, Redux e Tailwind CSS, com Consumo de API de Moedas em Tempo Real e DarkMode;
